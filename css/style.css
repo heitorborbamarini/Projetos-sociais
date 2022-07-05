@@ -12,7 +12,7 @@ html,body{
     background-color: black;
 }
 body{
-    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -24,10 +24,16 @@ main{
 section#telefone{
     height: 627px;
     width: 311px;
-    
-    background: url('../pacote-d013/imagens/frame-iphone.png') no-repeat center;
+    background: url('../imagens/frame-iphone.png') no-repeat center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+iframe#tela{
+    width: 269px;
+    height: 471px;
+    position: relative;
+    top: 80px;
+    left: 22px;
 }
